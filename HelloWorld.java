@@ -1,6 +1,13 @@
+import org.testng.annotations.Test;
+
 public class HelloWorld {
 
-    public static void main(String[] args) {
+   @Test
+    public void naveen() {
         System.out.println("naveen pass");
+    }
+    @Test
+    public void naveen2() {
+        System.out.println("naveen pass 2");
     }
 }
