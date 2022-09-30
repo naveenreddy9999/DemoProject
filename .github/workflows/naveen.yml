@@ -1,7 +1,8 @@
 name: naveen_job
 on:
   workflow_dispatch:
-
+ schedule:
+  - cron: '* * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
