@@ -6,7 +6,7 @@ on:
     - cron: '*/20 * * * *'
 
 jobs:
-  Build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,3 +15,4 @@ jobs:
      - name: Run a one-line script
         run: java HelloWorld.java
        
+      
