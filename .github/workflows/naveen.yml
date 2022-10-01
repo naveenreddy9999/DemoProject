@@ -1,7 +1,7 @@
 name: naveen_job
 on:
   schedule:
-  - cron: '* * * * *'
+  - cron: '*/20 * * * *'
 
 jobs:
   build:
