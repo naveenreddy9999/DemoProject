@@ -1,7 +1,7 @@
 name: naveen_job
 on:
   
-
+workflow_dispatch:
   # Allows you to run this workflow manually from the Actions tab
   schedule:
   - cron: '* * * * *'
