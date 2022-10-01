@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a one-line script
-        run: java HelloWorld.java
+        #run: java HelloWorld.java
+         run:echo Hello 
 
 
