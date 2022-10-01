@@ -17,13 +17,13 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      #- name: Run a one-line script
        # run: echo Hello, world!
 
 
 
-    #  - uses: actions/checkout@v3
-    #  - name: Run a one-line script
+      - uses: actions/checkout@v3
+     - name: Run a one-line script
         run: java HelloWorld.java
        # echo Hello 
         # run: echo Hello, world!
